@@ -20,6 +20,14 @@ export default function Home(){
             <button onClick="# ='#' ">Link</button>
         </div>
 
+        <div> 
+            <p>Entenda um pouco mais sobre o projeto Porto Help <button onClick="#= '#'">Objetivos</button></p>
+        </div>
+
+        <div>
+            <p>Visamos atender o chamado de veículos pesados, buscando relizar o chmado para as seguintes categorias:</p>
+            <p>Caminhões</p><p>Ônibus</p><p>Trailers</p>
+        </div>
         </main>
     )
 }
