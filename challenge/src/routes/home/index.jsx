@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 export default function Home(){
 
     return(
@@ -17,11 +18,16 @@ export default function Home(){
                 buscando o melhor para todos os usuários, independente ed faixa etária/conhecimento. Para isso iremos utilizar
                 de métodos com fácil utilização e que atendam todas as necessidades
             </p>
-            <button onClick="# ='#' ">Link</button>
+            <Link to ="/solicitar">
+                <button>Realizar Chamado</button>
+            </Link>
         </div>
 
         <div> 
-            <p>Entenda um pouco mais sobre o projeto Porto Help <button onClick="#= '#'">Objetivos</button></p>
+            <p>Entenda um pouco mais sobre o projeto Porto Help </p>
+            <Link to ="/objetivos">
+                <button>Objetivos</button>
+            </Link>
         </div>
 
         <div>
