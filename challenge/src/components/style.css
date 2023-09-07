@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family:'Lato' ;
+}
+#menu{
+    display:flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+#logoHome{
+    height: 50px;
+    width: 150px;
+}

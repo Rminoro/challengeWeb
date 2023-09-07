@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom"
+import "./style.css"
+import logoPortoHelp from "../assets/logoPortoHelp.png"
 
 export default function menu(){
 
     return(
-        <nav className="menu"> 
-            <Link to ='/'>PortoHelp</Link>
+        <nav id="menu" className="menu"> 
+            <Link to ='/'> <img id="logoHome" src={logoPortoHelp} alt="PortoHelp" /> </Link>
+            
             <span>|</span>
             <Link to ='/solicitar'>Solicitar Chamado</Link>
             <span>|</span>
