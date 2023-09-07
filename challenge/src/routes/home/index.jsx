@@ -6,7 +6,7 @@ export default function Home(){
             <h1>Home</h1>
             <div id="Container1">
             <p>Com a Porto Help você pode mais!
-                <h2> Buscamos crair um layout simples interativo mas sem 
+                <h2> Buscamos criar um layout simples interativo mas sem 
                     deixar de lado um design atrativo e intessante
                 </h2>
             </p>
