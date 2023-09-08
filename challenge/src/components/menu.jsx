@@ -9,13 +9,13 @@ export default function menu(){
             <Link to ='/'> <img id="logoHome" src={logoPortoHelp} alt="PortoHelp" /> </Link>
             
             <span>|</span>
-            <Link to ='/solicitar'>Solicitar Chamado</Link>
+            <Link to ='/solicitar' className="Link">Solicitar Chamado</Link>
             <span>|</span>
-            <Link to ='/objetivos'>Objetivos</Link>
+            <Link to ='/objetivos' className="Link">Objetivos</Link>
             <span>|</span>
-            <Link to ='/ChatBot'>Chatbot</Link>
+            <Link to ='/ChatBot' className="Link">Chatbot</Link>
             <span>|</span>
-            <Link to ='/sobrenos'>Sobre Nós</Link>
+            <Link to ='/sobrenos' className="Link">Sobre Nós</Link>
             <span>|</span>
             
 

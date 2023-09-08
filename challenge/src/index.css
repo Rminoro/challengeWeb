@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family:'Lato' ;
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -5,7 +13,9 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-image:url("./assets/background.png");
+  background-repeat: no-repeat;
+  background-size: 120% 100%;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,10 +23,17 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+#menu{
+  width: 100vw;
+  display:flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  background-color: #01A1FD;
+  color:#FFF;
+}
 a {
-  font-weight: 500;
-  color: #646cff;
+  font-weight: 700;
+  color: #ffffff;
   text-decoration: inherit;
 }
 a:hover {
@@ -26,7 +43,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
 }
@@ -61,7 +78,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #ffffff;
   }
   button {
     background-color: #f9f9f9;
